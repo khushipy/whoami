@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(135deg, #001014, #056666);
+  font-family: "Courier New", monospace;
+
+  color: white;
+  overflow: hidden;
+}
+
+.typed-text {
+  font-size: 2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid white;
+  width: 100%;
+  animation: typing 2s steps(7) forwards, blink 0.7s infinite;
+  justify-content: flex-start;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 7ch;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-color: transparent;
+    height: 12px;
+  }
+  100% {
+    border-color: white;
+    height: 12px;
+  }
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.hobbies {
+  display: flex;
+  margin-right: 100px;
+}
