@@ -39,8 +39,42 @@ body {
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  box-shadow: 2px 1px 2px #8c8b8b;
 }
 .hobbies {
   display: flex;
   margin-right: 100px;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+.pic img {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  height: 450px;
+  margin-top: 50px;
+  margin-left: 60px;
+  border-radius: 1rem;
+  padding: 2px;
+  border: 2px solid #056666;
+  margin-bottom: 150px;
+}
+
+.desc {
+  display: flex;
+  justify-content: start;
+  background: linear-gradient(to right, rgb(72, 226, 235), rgb(3, 93, 111));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 24px;
+  margin-top: 80px;
+  margin-right: 400px;
+}
+
+.hobbies a:hover {
+  background-color: #056666;
+  color: #ffffff;
+  border-radius: 5rem;
 }
